@@ -1,0 +1,8 @@
+{"at":0,"kind":"delegate","record":{"prefix":"tools","holder":"A","epoch":1}}
+{"at":1,"kind":"cover","record":{"prefix":"tools","holder":"A","epoch":1,"revision":1,"until":16}}
+{"at":2,"kind":"query","record":{"tenant":"lab","name":"tools.pose","query":"q","mode":"start"}}
+{"at":3,"kind":"watch","record":{"tenant":"lab","name":"tools.pose","client":"c","after":0}}
+{"at":4,"kind":"service","record":{"name":"tools.pose","holder":"A","epoch":1,"revision":2,"endpoint":"p","tenants":["lab"],"until":20}}
+{"at":5,"kind":"query","record":{"tenant":"guest","name":"tools.pose","query":"q2","mode":"start"}}
+{"at":6,"kind":"watch","record":{"tenant":"lab","name":"tools.pose","client":"c","after":0}}
+{"at":7,"kind":"inspect","record":{"client":"c"}}

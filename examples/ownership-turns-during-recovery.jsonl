@@ -1,0 +1,11 @@
+{"at":0,"kind":"delegate","record":{"prefix":"tools.hand","holder":"old","epoch":1}}
+{"at":1,"kind":"service","record":{"name":"tools.hand.joint","holder":"old","epoch":1,"revision":1,"endpoint":"aa","tenants":["lab"],"until":22}}
+{"at":2,"kind":"watch","record":{"tenant":"lab","name":"tools.hand.joint","client":"c","after":0}}
+{"at":3,"kind":"delegate","record":{"prefix":"tools.hand","holder":"new","epoch":2}}
+{"at":4,"kind":"cover","record":{"prefix":"tools.hand","holder":"old","epoch":1,"revision":2,"until":22}}
+{"at":5,"kind":"query","record":{"tenant":"lab","name":"tools.hand.joint","query":"after","mode":"start"}}
+{"at":6,"kind":"trim","record":{"through":1}}
+{"at":7,"kind":"restart","record":{}}
+{"at":8,"kind":"watch","record":{"tenant":"lab","name":"tools.hand.joint","client":"c","after":0}}
+{"at":9,"kind":"service","record":{"name":"tools.hand.joint","holder":"new","epoch":2,"revision":1,"endpoint":"bb","tenants":["lab"],"until":23}}
+{"at":10,"kind":"inspect","record":{"client":"c"}}
